@@ -1,38 +1,12 @@
-# 🏡 Client Documentation
+# Veranda Help Center
 
-> End-user guides for board administrators and homeowners. Written for **non-technical users**.
+Welcome to Veranda — HOA management made simple.
 
----
+Find your guide below:
 
-## 🔗 Quick Links
+- **Board Admins:** Start with [Getting Started](getting-started.md)
+- **Board Members:** See the [Board Member Guide](board-member-guide.md)
+- **Homeowners:** See the [Homeowner Guide](homeowner-guide.md)
+- **Questions?** Check the [FAQ](faq.md)
 
-- [📋 For Board Administrators](#-for-board-administrators)
-- [📄 Sample Import Files](#-sample-files)
-
----
-
-## 📋 For Board Administrators
-
-| Guide                                                | Description                                                                    |
-| ---------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [getting-started.md](./getting-started.md)           | **Start here** — first login, add units, invite homeowners, configure settings |
-| [importing-properties.md](./importing-properties.md) | How to bulk-import your property list using a CSV file                         |
-| [violation-workflow.md](./violation-workflow.md)     | Step-by-step: create a violation, send notices, track resolution               |
-| [inviting-homeowners.md](./inviting-homeowners.md)   | How to invite homeowners and board members to Veranda                          |
-| [faq.md](./faq.md)                                   | Common questions from boards and homeowners                                    |
-
----
-
-## 📄 Sample Files
-
-Download these templates to use with the CSV import feature:
-
-| File                                                                 | Property Type           |
-| -------------------------------------------------------------------- | ----------------------- |
-| [../demo/sample-import-houses.csv](../demo/sample-import-houses.csv) | Single-family homes     |
-| [../demo/sample-import-lots.csv](../demo/sample-import-lots.csv)     | Lots / land subdivision |
-| [../demo/sample-import-condos.csv](../demo/sample-import-condos.csv) | Condos / apartments     |
-
----
-
-_Last updated: 2026-04-01_
+> Veranda is a software tool, not legal counsel. Verify requirements with your HOA attorney.
