@@ -29,15 +29,18 @@ A CSV file is a plain text spreadsheet that any spreadsheet app can export. Open
 
 | Column           | Required? | Description                                                                           |
 | ---------------- | --------- | ------------------------------------------------------------------------------------- |
-| `address`        | ✅ Yes    | Full street address, e.g. `123 Oak Lane`                                              |
+| `address`        | ✅ Yes    | Street address only, e.g. `123 Oak Lane` or `100 Main Street Unit 1A`                 |
 | `lotNumber`      | No        | Your own identifier, e.g. `Lot 14` or `4B`. If blank, Veranda uses the street number. |
+| `city`           | No        | City, e.g. `Austin`                                                                   |
+| `state`          | No        | Two-letter state code, e.g. `TX`                                                      |
+| `zip`            | No        | ZIP code, e.g. `78701`                                                                |
 | `ownerEmail`     | No        | Homeowner or tenant email. When provided, an invitation is sent automatically.        |
 | `ownerFirstName` | No        | Owner's first name                                                                    |
 | `ownerLastName`  | No        | Owner's last name                                                                     |
 | `role`           | No        | `homeowner` or `tenant`. Defaults to `homeowner`.                                     |
 | `lotSizeSqft`    | No        | Lot size as a whole number, e.g. `7200`                                               |
 
-> **Column names are case-insensitive** — `Address`, `ADDRESS`, and `address` all work. You can also omit the header row and Veranda will assume the columns are in the order listed above.
+> **Column names are case-insensitive** — `Address`, `ADDRESS`, and `address` all work. You can also omit the header row and Veranda will assume the columns are in this order: `address`, `lotNumber`, `city`, `state`, `zip`, `ownerEmail`, `ownerFirstName`, `ownerLastName`, `role`, `lotSizeSqft`.
 
 ---
 
@@ -110,22 +113,24 @@ Copy the appropriate template below into a new spreadsheet, fill in your data, t
 **Single-family homes:**
 
 ```
-address,lotNumber,ownerEmail,ownerFirstName,ownerLastName,role,lotSizeSqft
-123 Oak Lane,,jsmith@email.com,Jane,Smith,homeowner,8500
+address,lotNumber,city,state,zip,ownerEmail,ownerFirstName,ownerLastName,role,lotSizeSqft
+123 Oak Lane,,Austin,TX,78701,jsmith@email.com,Jane,Smith,homeowner,8500
+456 Maple Drive,,Austin,TX,78701,bjones@email.com,Bob,Jones,homeowner,7200
 ```
 
 **Apartments / condos:**
 
 ```
-address,lotNumber,ownerEmail,ownerFirstName,ownerLastName,role
-100 Main Street,1A,alice@email.com,Alice,Nguyen,homeowner
+address,lotNumber,city,state,zip,ownerEmail,ownerFirstName,ownerLastName,role
+100 Main Street,1A,Austin,TX,78701,alice@email.com,Alice,Nguyen,homeowner
+100 Main Street,1B,Austin,TX,78701,bob@email.com,Bob,Kim,homeowner
 ```
 
 **Lots:**
 
 ```
-address,lotNumber,ownerEmail,ownerFirstName,ownerLastName,role,lotSizeSqft
-14 Lakeview Terrace,Lot 14,owner@email.com,John,Doe,homeowner,12000
+address,lotNumber,city,state,zip,ownerEmail,ownerFirstName,ownerLastName,role,lotSizeSqft
+14 Lakeview Terrace,Lot 14,Austin,TX,78701,owner@email.com,John,Doe,homeowner,12000
 ```
 
 ---
