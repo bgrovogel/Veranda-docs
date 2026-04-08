@@ -1,6 +1,6 @@
-# Veranda — Violation Workflow
+# Livenhood — Violation Workflow
 
-> Step-by-step guide for board administrators managing the full violation lifecycle in Veranda.
+> Step-by-step guide for board administrators managing the full violation lifecycle in Livenhood.
 
 **Status:** Current | **Last verified:** 2026-04-02
 
@@ -61,7 +61,7 @@ When you're ready to send formal notice to the homeowner:
 
 1. Open the violation
 2. Click **Send First Notice**
-3. Review the notice preview — Veranda generates a formatted PDF with:
+3. Review the notice preview — Livenhood generates a formatted PDF with:
    - Your community letterhead
    - The violation description and photos
    - The rule cited
@@ -144,7 +144,7 @@ To view: Open a violation → **Audit Trail** tab.
 
 ## Notice Delivery Tracking
 
-Veranda tracks whether the homeowner **opened** the violation notice email (via a tracking pixel).
+Livenhood tracks whether the homeowner **opened** the violation notice email (via a tracking pixel).
 
 To view: Open a violation → **Notices** tab → See delivery status and open timestamp for each notice sent.
 

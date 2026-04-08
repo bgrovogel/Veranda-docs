@@ -1,6 +1,6 @@
-# Veranda — Inviting Homeowners
+# Livenhood — Inviting Homeowners
 
-> How to get residents and board members onto Veranda — individually, in bulk, and what they see when they accept.
+> How to get residents and board members onto Livenhood — individually, in bulk, and what they see when they accept.
 
 **Status:** Current | **Last verified:** 2026-04-02
 
@@ -26,7 +26,7 @@
 3. Click the unit to open its detail page
 4. Click **Invite Homeowner**
 5. Enter their email address, first name, and last name
-6. Select their role: **Homeowner** or **Tenant**
+6. Select their role: **Homeowner** or **Resident**
 7. Click **Send Invite**
 
 > The homeowner receives an email with a personalized invitation link. The link is **valid for 7 days** and can only be used **once**.
@@ -40,7 +40,7 @@ If you're setting up a new community or inviting many homeowners at once, use th
 1. Go to **Properties** → click **Import CSV**
 2. Upload your CSV file with `ownerEmail`, `ownerFirstName`, and `ownerLastName` columns filled in
 3. After import completes, click **Send Bulk Invites**
-4. Veranda sends invitation emails to every homeowner included in the import
+4. Livenhood sends invitation emails to every homeowner included in the import
 
 See [importing-properties.md](./importing-properties.md) for the CSV format.
 
@@ -73,10 +73,10 @@ To cancel an invitation before it's accepted:
 3. Enter their email address, first name, and last name
 4. Select their role:
 
-| Role             | Access Level                                                                                                              |
-| ---------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Board Admin**  | Full control — can change other members' roles and deactivate users                                                       |
-| **Board Member** | Can create violations, manage documents and announcements, invite homeowners. Cannot change roles or deactivate accounts. |
+| Role              | Access Level                                                                                                              |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| **Board Officer** | Full control — can change other members' roles and deactivate users                                                       |
+| **Board Member**  | Can create violations, manage documents and announcements, invite homeowners. Cannot change roles or deactivate accounts. |
 
 5. Click **Send Invite**
 
@@ -114,10 +114,10 @@ When a homeowner moves out or should no longer have access:
 
 ## Tips
 
-- **Invite early.** The sooner homeowners are on Veranda, the sooner they receive violation notices electronically — which simplifies enforcement.
+- **Invite early.** The sooner homeowners are on Livenhood, the sooner they receive violation notices electronically — which simplifies enforcement.
 - **Use bulk invite after a successful CSV import.** It takes 30 seconds to invite 100 homeowners.
 - **Check pending invitations regularly.** Some homeowners miss their invite email. A resend usually fixes it.
-- **Set the right role.** A tenant should get the Tenant role, not Homeowner. This keeps ownership records accurate.
+- **Set the right role.** A resident should get the Resident role, not Homeowner. This keeps ownership records accurate.
 
 ---
 

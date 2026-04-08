@@ -1,6 +1,6 @@
-# Veranda — Importing Properties
+# Livenhood — Importing Properties
 
-> Bulk-import all of your community's properties at once using a CSV spreadsheet file. You can include owner contact information so Veranda automatically sends invitation emails during the import.
+> Bulk-import all of your community's properties at once using a CSV spreadsheet file. You can include owner contact information so Livenhood automatically sends invitation emails during the import.
 
 **Status:** Current | **Last verified:** 2026-04-02
 
@@ -27,20 +27,20 @@ Any **board admin** or **board member** can import properties. You will find the
 
 A CSV file is a plain text spreadsheet that any spreadsheet app can export. Open your spreadsheet software (Excel, Google Sheets, Numbers) and set up the following columns:
 
-| Column           | Required? | Description                                                                           |
-| ---------------- | --------- | ------------------------------------------------------------------------------------- |
-| `address`        | ✅ Yes    | Street address only, e.g. `123 Oak Lane` or `100 Main Street Unit 1A`                 |
-| `lotNumber`      | No        | Your own identifier, e.g. `Lot 14` or `4B`. If blank, Veranda uses the street number. |
-| `city`           | No        | City, e.g. `Austin`                                                                   |
-| `state`          | No        | Two-letter state code, e.g. `TX`                                                      |
-| `zip`            | No        | ZIP code, e.g. `78701`                                                                |
-| `ownerEmail`     | No        | Homeowner or tenant email. When provided, an invitation is sent automatically.        |
-| `ownerFirstName` | No        | Owner's first name                                                                    |
-| `ownerLastName`  | No        | Owner's last name                                                                     |
-| `role`           | No        | `homeowner` or `tenant`. Defaults to `homeowner`.                                     |
-| `lotSizeSqft`    | No        | Lot size as a whole number, e.g. `7200`                                               |
+| Column           | Required? | Description                                                                             |
+| ---------------- | --------- | --------------------------------------------------------------------------------------- |
+| `address`        | ✅ Yes    | Street address only, e.g. `123 Oak Lane` or `100 Main Street Unit 1A`                   |
+| `lotNumber`      | No        | Your own identifier, e.g. `Lot 14` or `4B`. If blank, Livenhood uses the street number. |
+| `city`           | No        | City, e.g. `Austin`                                                                     |
+| `state`          | No        | Two-letter state code, e.g. `TX`                                                        |
+| `zip`            | No        | ZIP code, e.g. `78701`                                                                  |
+| `ownerEmail`     | No        | Homeowner or tenant email. When provided, an invitation is sent automatically.          |
+| `ownerFirstName` | No        | Owner's first name                                                                      |
+| `ownerLastName`  | No        | Owner's last name                                                                       |
+| `role`           | No        | `homeowner` or `tenant`. Defaults to `homeowner`.                                       |
+| `lotSizeSqft`    | No        | Lot size as a whole number, e.g. `7200`                                                 |
 
-> **Column names are case-insensitive** — `Address`, `ADDRESS`, and `address` all work. You can also omit the header row and Veranda will assume the columns are in this order: `address`, `lotNumber`, `city`, `state`, `zip`, `ownerEmail`, `ownerFirstName`, `ownerLastName`, `role`, `lotSizeSqft`.
+> **Column names are case-insensitive** — `Address`, `ADDRESS`, and `address` all work. You can also omit the header row and Livenhood will assume the columns are in this order: `address`, `lotNumber`, `city`, `state`, `zip`, `ownerEmail`, `ownerFirstName`, `ownerLastName`, `role`, `lotSizeSqft`.
 
 ---
 
@@ -86,7 +86,7 @@ address,lotNumber,ownerEmail,ownerFirstName,ownerLastName
 1. Go to **Properties** in the board portal
 2. Click **Import CSV** in the top-right corner
 3. Click the file drop zone and choose your `.csv` file
-4. Veranda shows a **preview of the first 10 rows** and the total count — review it
+4. Livenhood shows a **preview of the first 10 rows** and the total count — review it
 5. If there are any errors (shown in red), fix them in your spreadsheet and re-upload
 6. Click **Import N properties** to start the import
 7. Once complete, you'll see a summary:
@@ -135,7 +135,7 @@ address,lotNumber,city,state,zip,ownerEmail,ownerFirstName,ownerLastName,role,lo
 
 ---
 
-> **Need help?** Contact your Veranda administrator or reach out to support. Do not include sensitive financial or legal information in the CSV — this file is only for property and contact data.
+> **Need help?** Contact your Livenhood administrator or reach out to support. Do not include sensitive financial or legal information in the CSV — this file is only for property and contact data.
 
 ---
 
