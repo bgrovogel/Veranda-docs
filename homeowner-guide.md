@@ -142,12 +142,12 @@ The Forms section provides fillable templates for common HOA submissions. Comple
 
 **Filling out and downloading a form:**
 
-1. Go to **Forms** — the library shows templates available to homeowners
+1. Go to **Forms** — the library shows templates your board has enabled for homeowners
 2. Click a template card to open the form
 3. Fill in all required fields (marked with an asterisk)
-4. Review the live PDF preview on the right side of the screen
-5. Click **Generate PDF** to produce the final document
-6. Click **Download** to save the PDF to your device
+4. Your progress is **automatically saved as a draft** every few seconds — you can close the page and return later to continue where you left off
+5. Click **Generate PDF** to produce the final document — it is saved to your document library
+6. Previously generated copies appear in the **Previously Generated** section at the bottom of the form page, with download links for each
 
 > Your board may require you to submit completed forms by email or through a separate process. Check with your board for submission instructions.
 

@@ -302,12 +302,16 @@ Forms appear in the **Content** section of the sidebar, between **Documents** an
 
 **Customizing templates (board_officer only):**
 
-Board officers can add a custom instructions block to any template:
+Board officers can customize any template and control homeowner access:
 
 1. Open the template from the Forms library
 2. Click **Customize** (top right of the form page)
-3. Add or edit the instructions block — this text appears at the top of the generated PDF for all future uses of this template
-4. Click **Save**
+3. **Homeowner Access toggle** — enable to allow homeowners to see and fill this template from their portal; disable to restrict it to board members only
+4. Add or edit the instructions block — this text appears at the top of generated PDFs for your community
+5. Override field labels and upload a community logo
+6. Click **Save**
+
+**Draft auto-save:** When filling out a form, field values are automatically saved every few seconds. Previously generated PDFs appear in a **Previously Generated** section at the bottom of the form page.
 
 ---
 
