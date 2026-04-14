@@ -408,6 +408,16 @@ Go to **Settings** to configure:
 - **Property label** — how properties are labeled throughout the app (Unit, Lot, Home, or Property)
 - **Default cure period** — how many days homeowners have to resolve a violation (typically 14–30 days)
 - **Violation categories** — add, edit, or reorder the violation types available in your community
+- **Autopay** — enable or disable autopay for all homeowners in the community
+
+### Autopay toggle (board_officer only)
+
+Go to **Settings → Payments → Autopay** to enable or disable autopay enrollment for your community.
+
+- **Enabled:** Homeowners can save a payment method and have dues charged automatically on their due date
+- **Disabled:** Autopay enrollment is hidden from homeowners; existing enrollments are suspended until re-enabled
+
+Disabling autopay does not cancel existing enrollments permanently — it prevents new enrollments and pauses automatic charges until you re-enable it. Homeowners are not notified when you toggle this setting.
 
 ---
 
@@ -479,4 +489,4 @@ When a data access or portability request is completed, a **Download Export** bu
 
 Livenhood is a software tool, not legal counsel. All enforcement settings are configured by your board based on your governing documents. Verify enforcement requirements with your HOA attorney.
 
-_Last updated: 2026-04-08_
+_Last updated: 2026-04-14_

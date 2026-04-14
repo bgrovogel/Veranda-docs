@@ -153,6 +153,41 @@ The Forms section provides fillable templates for common HOA submissions. Comple
 
 ---
 
+## Autopay
+
+If your board has enabled autopay, you can save a payment method and have your dues charged automatically on your due date — no need to log in and pay each period.
+
+### Enrolling in autopay
+
+1. Go to **Pay** in the sidebar navigation
+2. Scroll to the **Autopay** section
+3. Click **Set Up Autopay**
+4. Enter your bank account or card details in the Stripe-hosted form
+5. Click **Save** — you'll see a confirmation that autopay is active, along with the last 4 digits of your saved payment method
+
+Once enrolled, your dues will be charged automatically on your due date each billing period.
+
+### Cancelling autopay
+
+1. Go to **Pay** → scroll to the **Autopay** section
+2. Click **Cancel Autopay**
+3. Confirm the cancellation
+
+Your saved payment method is removed. You will need to pay manually starting with the next billing period.
+
+### If a charge fails
+
+If autopay is unable to charge your account (for example, due to insufficient funds or an expired card), Livenhood will:
+
+- Send you an **email notification** with details about the failed charge
+- Show an in-app notification on your homeowner portal
+
+Your account balance will remain unpaid. Log in to **Pay** to make a manual payment or update your payment method and re-enroll in autopay.
+
+> Autopay availability depends on whether your board has enabled it. If you do not see the Autopay section on your Pay page, contact your board.
+
+---
+
 ## Notifications
 
 Livenhood sends you notifications for:
@@ -260,4 +295,4 @@ The denial reason is displayed on the Privacy & Data page. If you believe the de
 
 Livenhood is a software tool, not legal counsel. All enforcement settings are configured by your board based on your community's governing documents. If you have questions about your rights or obligations as a homeowner, verify requirements with your HOA attorney.
 
-_Last updated: 2026-04-06_
+_Last updated: 2026-04-14_
