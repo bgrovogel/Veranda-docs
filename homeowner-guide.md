@@ -2,7 +2,7 @@
 
 > How to use the Livenhood homeowner portal.
 
-**Status:** Current | **Last verified:** 2026-04-02
+**Status:** Current | **Last verified:** 2026-04-14
 
 ---
 
@@ -16,6 +16,9 @@
 - [Forms](#forms)
 - [Notifications](#notifications)
 - [Managing Your Profile](#managing-your-profile)
+- [Self-Registration](#self-registration)
+- [Unit Photos](#unit-photos)
+- [Locked Profile Fields](#locked-profile-fields)
 - [Privacy & Data](#privacy--data)
 - [Legal Notice](#legal-notice)
 
@@ -237,6 +240,30 @@ Email changes require board approval to protect your account:
 3. Click **Submit Request**
 
 Your request will appear as "Pending" until a board admin approves it. You'll receive a notification when it's approved. Once approved, your login email changes immediately.
+
+---
+
+### Self-Registration
+
+If your board has enabled self-registration, you can request to join without an invitation:
+
+1. Visit the registration link shared by your board (or scan the QR code)
+2. Enter your name, email, and select your role
+3. Click **Submit Request**
+4. Your board will review and approve your request
+5. Once approved, you'll receive an email to complete your account setup
+
+---
+
+### Unit Photos
+
+Your board may upload photos of your unit. View them on your home screen at `/owner/home` in the **Unit Photos** section.
+
+---
+
+### Locked Profile Fields
+
+Your board may lock certain profile fields (e.g., name, phone) to prevent changes. Locked fields appear grayed out on your **Settings** page. Contact your board if you need to update a locked field.
 
 ---
 

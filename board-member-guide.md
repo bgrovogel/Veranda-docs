@@ -2,7 +2,7 @@
 
 > How to use Livenhood as a board member or board officer.
 
-**Status:** Current | **Last verified:** 2026-04-05
+**Status:** Current | **Last verified:** 2026-04-14
 
 ---
 
@@ -222,6 +222,22 @@ When a homeowner submits resolution photos:
 
 Both actions are recorded in the audit trail with a timestamp and your name.
 
+### Repeat Offender Badge
+
+When creating or viewing a violation, you'll see:
+
+- **Repeat Offender** indicator if the unit has prior violations in the same category
+- Prior violation count is shown to help gauge enforcement response
+
+### Violation Export
+
+Export violation records for board meetings or legal review.
+
+1. Go to **Violations** and click **Export**
+2. Choose **CSV** or **PDF** format
+3. Optionally filter by status, search term, or date range
+4. Download starts automatically (max 1,000 records per export)
+
 ### Audit trail
 
 Every action on a violation is logged permanently. To view: open a violation → **Audit Trail** tab.
@@ -352,6 +368,43 @@ Board officers can deactivate accounts:
 
 The member loses access immediately. Their history (violations, actions) is preserved.
 
+### Self-Registration Queue
+
+Board officers can enable a public registration link for homeowners to request to join.
+
+1. Go to **Settings → Registration Settings**
+2. Toggle **Allow Self-Registration** on
+3. Share the generated link or QR code with residents
+4. Pending registrations appear in **Members → Pending Registrations** tab
+5. Review and approve or reject each request
+
+### QR Code for Registration
+
+A downloadable QR code is generated for your registration URL.
+
+1. Go to **Settings → Registration Settings**
+2. Click **Download QR** to save the QR code image
+3. Print for welcome packets, bulletin boards, or your HOA website
+4. **Regenerate** creates a new URL and invalidates old QR codes/links
+
+### Board Notes on Units
+
+Attach private notes to unit records — visible only to board members and MC staff.
+
+1. Go to **Units → [Unit] → Notes** tab
+2. Click **Add Note** and type your note (max 2000 characters)
+3. Edit or delete existing notes as needed
+4. Notes are never visible to homeowners or residents
+
+### Bulk Activation Emails
+
+Send reminder emails to all pending (uninvited) members at once.
+
+1. Go to **Members**
+2. Click **Send Activation Emails**
+3. The system sends to all pending invitations that haven't been emailed in 24 hours
+4. A summary shows how many were sent and how many were skipped
+
 ---
 
 ## Dues & Payments (board_officer only)
@@ -418,6 +471,15 @@ Go to **Settings → Payments → Autopay** to enable or disable autopay enrollm
 - **Disabled:** Autopay enrollment is hidden from homeowners; existing enrollments are suspended until re-enabled
 
 Disabling autopay does not cancel existing enrollments permanently — it prevents new enrollments and pauses automatic charges until you re-enable it. Homeowners are not notified when you toggle this setting.
+
+### Profile Field Locks
+
+Lock profile fields so homeowners cannot change them.
+
+1. Go to **Settings → Profile Field Locks**
+2. Toggle fields to lock: Name, Phone
+3. Locked fields appear read-only on homeowner profiles
+4. Board members and MC staff are exempt from locks
 
 ---
 
