@@ -387,6 +387,38 @@ A downloadable QR code is generated for your registration URL.
 3. Print for welcome packets, bulletin boards, or your HOA website
 4. **Regenerate** creates a new URL and invalidates old QR codes/links
 
+### Vehicle Registry
+
+Track vehicles registered to a unit — useful for parking enforcement.
+
+1. Go to **Units → [Unit] → Vehicles** tab
+2. Click **Add vehicle**
+3. Enter the license plate (required) plus optional make, model, color, year, and notes
+4. Click **Add vehicle** to save
+
+**Editing a vehicle:** Click **Edit** next to any vehicle card, make changes, and click **Save changes**.
+
+**Deleting a vehicle:** Click the trash icon next to any vehicle. The record is removed immediately.
+
+**Searching by plate:** Use the plate search on the Vehicles tab to find a vehicle across all units in the community.
+
+### Pet Registry
+
+Track pets registered to a unit — breed restrictions and vaccination compliance.
+
+1. Go to **Units → [Unit] → Pets** tab
+2. Click **Add pet**
+3. Enter the pet's name and species (required) plus optional breed, color, weight, vaccination expiry, and notes
+4. Click **Add pet** to save
+
+**Vaccination expiry indicators:**
+
+- Red text — vaccination has expired
+- Amber text — vaccination expires within 60 days
+- Normal text — vaccination is current or no date recorded
+
+**Editing or deleting a pet:** Same as vehicles — click **Edit** or the trash icon on any pet card.
+
 ### Board Notes on Units
 
 Attach private notes to unit records — visible only to board members and MC staff.
