@@ -2,7 +2,7 @@
 
 > How to use the Livenhood homeowner portal.
 
-**Status:** Current | **Last verified:** 2026-04-14
+**Status:** Current | **Last verified:** 2026-04-15
 
 ---
 
@@ -14,11 +14,14 @@
 - [Filing a Dispute](#filing-a-dispute)
 - [Community Documents](#community-documents)
 - [Forms](#forms)
+- [Surveys & Polls](#surveys--polls)
 - [Notifications](#notifications)
 - [Managing Your Profile](#managing-your-profile)
 - [Self-Registration](#self-registration)
 - [Unit Photos](#unit-photos)
 - [Locked Profile Fields](#locked-profile-fields)
+- [Badges](#badges)
+- [Noise Nudge](#noise-nudge)
 - [Privacy & Data](#privacy--data)
 - [Legal Notice](#legal-notice)
 
@@ -95,11 +98,50 @@ When your board files a violation against your unit, you'll receive an email not
 
 ---
 
+## Submitting an Appeal
+
+If you disagree with a formal board decision (such as a hearing outcome), you can file an appeal directly in Livenhood.
+
+**To submit an appeal:**
+
+1. Go to **Violations** → click the violation you want to appeal
+2. Click **File an Appeal** — this appears when the violation is in a status where an appeal is permitted
+3. Write your appeal statement explaining why you believe the decision was incorrect
+4. Attach any supporting evidence (photos, documents)
+5. Describe your requested outcome — what you are asking the board to do
+6. Click **Submit Appeal**
+
+**What happens next:**
+
+- The board receives a notification and your appeal enters the review queue
+- You can track status on the violation page: `submitted` → `under_review` → `hearing_scheduled` → `resolved`
+- Once the board records a decision, you will be notified of the outcome
+
+> Livenhood is a software tool, not legal counsel. Verify appeal rights and procedures with your HOA attorney and governing documents.
+
+---
+
+## Viewing Fines
+
+If the board assesses a fine against a violation, it will appear as a fine card on your violations page and on the violation detail.
+
+**What the fine card shows:**
+
+- Fine amount and due date
+- Reason provided by the board
+- Payment status: unpaid, paid, or waived
+
+If you believe a fine was assessed in error, submit a dispute (see below) or contact your board directly. Fine payment processing depends on your HOA's payment configuration.
+
+> Livenhood is a software tool, not legal counsel. Verify fine enforcement rights with your HOA attorney.
+
+---
+
 ## Filing a Dispute
 
-If you believe a violation was filed in error or you disagree with the board's assessment, you can submit a resolution response directly in Livenhood.
+If you believe a violation or fine was filed in error or you disagree with the board's assessment, you can submit a formal dispute in Livenhood.
 
-**To submit a resolution or dispute:**
+**To submit a resolution response (informal):**
 
 1. Go to **Violations** → click the violation
 2. Click **Mark as Resolved** or **Submit Response**
@@ -107,9 +149,22 @@ If you believe a violation was filed in error or you disagree with the board's a
 4. Attach photos if relevant (before/after photos are helpful)
 5. Click **Submit**
 
-Your board receives a notification and will review your response. They can confirm resolution and close the violation, or contact you if more action is needed.
+**To submit a formal dispute:**
 
-**Formal disputes** (beyond submitting a response in Livenhood) are governed by your HOA's governing documents. Contact your board or HOA attorney for guidance on the formal dispute process.
+1. Go to **Disputes** in the navigation (or click **Submit Dispute** from the violation page)
+2. Choose what you're disputing (violation or fine) and enter a subject and description
+3. Click **Submit Dispute**
+4. Your dispute enters the board's review queue — you can track status and exchange messages with the board on the dispute detail page
+
+**Dispute statuses:**
+
+| Status             | What it means                                                     |
+| ------------------ | ----------------------------------------------------------------- |
+| Opened             | Your dispute has been received; the board has not yet reviewed it |
+| Under Review       | The board is actively reviewing your dispute                      |
+| Resolved for Owner | The board resolved the dispute in your favor                      |
+| Resolved for HOA   | The board resolved the dispute in the HOA's favor                 |
+| Escalated          | The dispute has been escalated for further review                 |
 
 > Livenhood is a software tool, not legal counsel. Verify dispute and enforcement requirements with your HOA attorney.
 
@@ -191,6 +246,58 @@ Your account balance will remain unpaid. Log in to **Pay** to make a manual paym
 
 ---
 
+## Member Directory
+
+The member directory lets homeowners in your community find and connect with their neighbors. Participation is always opt-in — your information only appears to others if you choose.
+
+### Opting in to the directory
+
+1. Go to **Settings** → **Directory**
+2. Toggle **Show me in directory** to on
+3. Set your **Display name** — this is what neighbors see
+4. Choose whether to show your **email address** and/or **phone number**
+5. Optionally upload a **profile photo**
+6. Click **Save**
+
+To opt out at any time, return to **Settings** → **Directory** and toggle off **Show me in directory**. Your profile is immediately removed from the directory.
+
+### Viewing the directory
+
+1. Go to **Directory** in the sidebar navigation (`/owner/directory`)
+2. Browse opted-in neighbors — their display name, photo (if uploaded), and any contact details they have chosen to share
+
+> The directory only shows homeowners who have explicitly opted in. If a neighbor does not appear, they have not opted in.
+
+---
+
+## Surveys & Polls
+
+Your board may occasionally send you surveys or idea polls to collect community feedback. Surveys and polls are non-binding — your responses help your board make informed decisions but have no legal effect.
+
+### Taking a Survey
+
+1. Go to **Surveys** (in the sidebar navigation) — open surveys appear at the top
+2. Click a survey card to open it
+3. Answer each question and click **Submit**
+
+You can only respond once per survey. After submitting, the survey is marked as completed in your list.
+
+### Viewing Poll Results
+
+When your board creates an **idea poll** and enables **public results**, you can see how the community voted after submitting your own response.
+
+1. Go to **Surveys** → click a completed or open poll
+2. If results are public, a **Results** section appears below the questions showing a bar chart with the percentage breakdown per option
+3. Results update in real time as more responses come in
+
+If results are not public, you will see your own submitted answers but no aggregate breakdown.
+
+### Post-Resolution Surveys
+
+After your board marks a violation as resolved, you may receive a short satisfaction survey asking about your experience with the enforcement process. These are optional and take about 30 seconds to complete. Your feedback helps your board improve their process.
+
+---
+
 ## Notifications
 
 Livenhood sends you notifications for:
@@ -267,6 +374,34 @@ Your board may lock certain profile fields (e.g., name, phone) to prevent change
 
 ---
 
+## Badges
+
+Your board may award recognition badges to your unit for positive community contributions.
+
+1. Go to **Badges** (`/owner/badges`) to view all badges earned by your unit
+2. Each badge shows its name, description, and the date it was awarded
+3. Badges are display-only — contact your board if you have questions about an award
+
+---
+
+## Noise Nudge
+
+The noise nudge feature lets you anonymously notify a neighboring unit about noise without identifying yourself.
+
+### Sending a Nudge
+
+1. Go to **Noise Nudges** (`/owner/noise-nudges`)
+2. Select the neighboring unit and optionally add a short message
+3. Click **Send Nudge** — your identity is never revealed to the recipient
+
+**Limits:** You can send up to 3 nudges per 7-day period. You cannot nudge your own unit.
+
+### Viewing Received Nudges
+
+The **Received** tab shows nudges your unit has received. Sender identity is always hidden — only the message and timestamp are shown.
+
+---
+
 ## Two-Factor Authentication (optional)
 
 You can add extra security to your account. Go to **Settings → Security → Two-Factor Authentication** and click **Set up →**. Follow the on-screen steps to connect an authenticator app.
@@ -322,4 +457,4 @@ The denial reason is displayed on the Privacy & Data page. If you believe the de
 
 Livenhood is a software tool, not legal counsel. All enforcement settings are configured by your board based on your community's governing documents. If you have questions about your rights or obligations as a homeowner, verify requirements with your HOA attorney.
 
-_Last updated: 2026-04-14_
+_Last updated: 2026-04-15_

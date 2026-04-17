@@ -246,6 +246,65 @@ The audit trail records: who created the violation, when each notice was sent, w
 
 ---
 
+## Violation Appeals
+
+When a homeowner submits an appeal, it appears in the Appeals queue at `/hoa/violations/appeals`.
+
+**Reviewing an appeal:**
+
+1. Go to **Violations** → **Appeals** in the sidebar
+2. The queue shows all submitted appeals with status badges: `submitted`, `under_review`, `hearing_scheduled`, `resolved`
+3. Click an appeal to view the homeowner's statement, requested outcome, and any attached evidence
+4. To record a decision: click **Record Decision**, choose an outcome (`upheld_original`, `overturned`, `modified`, or `new_hearing_granted`), enter your reasoning, and click **Save**
+
+**Outcomes:**
+
+- `upheld_original` — original violation stands; the homeowner is notified
+- `overturned` — violation is dismissed; the homeowner is notified
+- `modified` — terms adjusted (e.g. extended cure period)
+- `new_hearing_granted` — a new formal hearing is scheduled
+
+Only `board_officer` role can record appeal decisions. `board_member` has read-only access to the queue.
+
+---
+
+## Violation Fines
+
+Fines can be assessed once a violation has reached `second_notice_sent` or later status.
+
+**Assessing a fine:**
+
+1. Open the violation detail page (`/hoa/violations/[violationId]`)
+2. Click **Assess Fine** — available to `board_officer` only
+3. Enter the fine amount, reason, and due date, then click **Submit**
+4. The violation status updates to `fine_assessed` and the homeowner is notified
+
+**Managing fines:**
+
+- **Mark as Paid:** Click **Mark Paid** on the fine card when payment is received offline. Records payment timestamp and who marked it.
+- **Waive:** Click **Waive Fine** (board_officer only), enter a waiver reason, and confirm. Waived fines are retained for audit trail.
+
+Fine details appear on the violation detail page and in the homeowner's violations view.
+
+---
+
+## Dispute Resolution
+
+Homeowners can submit disputes against violations or fines. All disputes appear at `/hoa/disputes`.
+
+**Reviewing a dispute:**
+
+1. Go to **Disputes** in the sidebar
+2. Filter by status: `opened`, `under_review`, `resolved_for_owner`, `resolved_for_hoa`, `escalated`
+3. Click a dispute to view the homeowner's statement and the message thread
+4. Click **Open Review** to move the dispute to `under_review` status (signals to the homeowner that you're looking into it)
+5. Add messages to the thread to communicate with the homeowner
+6. When ready to resolve: click **Resolve**, choose outcome (`resolved_for_owner` or `resolved_for_hoa`), enter resolution notes, and confirm
+
+Only `board_officer` can resolve disputes. Both roles can add messages and open review.
+
+---
+
 ## Posting Announcements
 
 Announcements reach all registered homeowners via email and push notification.
@@ -287,6 +346,19 @@ The document library stores your community's governing documents, meeting minute
 
 - **Public** — visible to all registered homeowners
 - **Board Only** — visible to board members only
+
+### Starter Document Templates
+
+Livenhood provides 21 pre-built document templates across 7 categories (CC&Rs, Bylaws, Meeting Minutes, Financial, Rules, Forms, Notices) to help new boards get started quickly.
+
+**Using a Starter Template:**
+
+1. Go to **Documents** and scroll down to the **Starter Templates** section (collapsible)
+2. Browse templates by category
+3. Click **Copy to Library** on any template to add it to your community's document library
+4. The copied document can then be downloaded, shared with homeowners, or edited
+
+> These templates are provided for general reference only. **Verify all documents with your HOA attorney before using them for official community purposes.** Laws and requirements vary by state and governing documents.
 
 ---
 
@@ -515,6 +587,110 @@ Lock profile fields so homeowners cannot change them.
 
 ---
 
+## Member Directory
+
+The member directory allows opted-in community members to see each other's contact information.
+
+**Board view (`/hoa/directory`):** Board members see all active members (opted-in and not), sorted by unit number then last name. Full contact details (email, phone) are visible regardless of opt-in status.
+
+**Homeowner view (`/owner/directory`):** Homeowners only see members who have explicitly opted in. Email and phone are only shown if the member has enabled `showEmail`/`showPhone` on their profile.
+
+The directory is controlled by the `directory_enabled` flag in community governance config. If disabled, the directory page is not accessible to homeowners.
+
+---
+
+## Welcome Packet Configuration
+
+Configure the content of auto-generated welcome packets sent to new homeowners.
+
+1. Go to **Settings → Welcome Packet** (`/hoa/settings/welcome-packet`)
+2. Fill in any combination of:
+   - **Board message** — a personal welcome from the board
+   - **Parking policy** — parking rules summary
+   - **Amenities** — pool, gym, dog park, etc.
+   - **Trash schedule** — pickup days and bin-out times
+   - **Quiet hours** — noise curfew times
+   - **Pet policy** — breed restrictions, leash rules, pet count limits
+   - **Emergency contact** — security or emergency phone number
+   - **Management contact** — board email or management company contact
+   - **Additional notes** — anything else new residents should know
+3. Click **Save**
+
+The config is stored on the community record and embedded in welcome packet PDFs automatically generated when a new homeowner accepts their invitation.
+
+---
+
+## Idea Polls
+
+Idea polls let boards collect community opinions informally — without the legal weight of a formal ballot. Responses are non-binding.
+
+### Creating an Idea Poll
+
+1. Go to **Surveys** → click **New Poll** (or use the **Create Survey** quick-action on the dashboard)
+2. You'll be taken to `/hoa/surveys/new-poll` with poll-specific options:
+   - **Anonymous responses** — hide individual respondent identities in results
+   - **Public results** — allow homeowners to see the aggregated results from their portal
+3. Add your questions (single choice, multiple choice, or text)
+4. Click **Publish** to open it immediately, or **Save Draft** to publish later
+
+### Viewing Poll Badges
+
+In the **Surveys** list, polls are shown with a **Poll** badge to distinguish them from standard surveys and post-resolution surveys.
+
+### Post-Resolution Satisfaction Surveys
+
+When a violation is marked **Resolved**, Livenhood automatically creates a 3-question satisfaction survey and sends it to the homeowner. These appear in the Surveys list with an amber **Post-Resolution** badge. Board officers can review responses to monitor enforcement quality.
+
+---
+
+## Community Badges
+
+Award recognition badges to units or homeowners for positive contributions to the community.
+
+### Managing Badges
+
+1. Go to **Badges** (`/hoa/badges`)
+2. Click **New Badge** to create a badge — enter a name, optional description, and pick a color
+3. Click **Award** on any badge to assign it to one or more units
+4. To revoke a badge, open the badge, find the unit, and click **Revoke**
+5. To delete a badge entirely, click the badge menu → **Delete** (removes all awards)
+
+Board members can award badges; only board officers can delete them.
+
+---
+
+## Noise Nudge
+
+The noise nudge feature lets residents anonymously notify a neighboring unit about noise. Sender identity is never revealed.
+
+### Board Oversight
+
+1. Go to **Noise Nudges** (`/hoa/noise-nudges`)
+2. View the full community nudge log — includes sender and recipient unit IDs (for moderation only)
+3. Use this log to identify patterns and follow up with repeat noise offenders through normal channels
+
+Homeowners and residents cannot see sender identities from their portals.
+
+---
+
+## Tags
+
+Tags let you apply custom labels to units, violations, and users for filtering and organization.
+
+### Managing Tags
+
+1. Go to **Settings → Tags** (`/hoa/settings/tags`)
+2. Click **New Tag** — enter a name and choose a color
+3. Board officers can create, edit, and delete tags; board members can view
+
+### Applying Tags
+
+- **On a unit:** Open the unit detail page, go to the **Tags** section, and select tags to apply
+- **On a violation:** Open the violation detail, use the **Tags** panel to label it (e.g., "Repeat Offender", "Landscaping Watch")
+- Removing a tag from an entity does not delete the tag — it remains available for other entities
+
+---
+
 ## Notifications
 
 You receive notifications for:
@@ -583,4 +759,4 @@ When a data access or portability request is completed, a **Download Export** bu
 
 Livenhood is a software tool, not legal counsel. All enforcement settings are configured by your board based on your governing documents. Verify enforcement requirements with your HOA attorney.
 
-_Last updated: 2026-04-14_
+_Last updated: 2026-04-15_
