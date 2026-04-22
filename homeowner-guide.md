@@ -14,6 +14,11 @@
 - [Filing a Dispute](#filing-a-dispute)
 - [Community Documents](#community-documents)
 - [Forms](#forms)
+- [Elections](#elections)
+- [Quick Votes (Board Decisions)](#quick-votes-board-decisions)
+- [Announcements](#announcements)
+- [Work Orders](#work-orders)
+- [Community Finances](#community-finances)
 - [Surveys & Polls](#surveys--polls)
 - [Notifications](#notifications)
 - [Managing Your Profile](#managing-your-profile)
@@ -270,6 +275,92 @@ To opt out at any time, return to **Settings** → **Directory** and toggle off 
 
 ---
 
+## Elections
+
+Your board may hold community elections for board positions. If your board allows resident participation, you can view and vote in open elections.
+
+**Viewing elections:**
+
+1. Go to **Elections** in the sidebar navigation
+2. Open elections appear with a **Vote** button; completed elections show a **Results** button
+
+**Casting a vote:**
+
+1. Click **Vote** on an open election
+2. Select your candidate(s) per the ballot instructions
+3. Click **Submit Vote** — votes are anonymous and cannot be changed after submission
+
+**Viewing results:**
+
+When the board closes an election and publishes results, click **Results** on the election card to see the outcome.
+
+> Livenhood is a software tool, not legal counsel. Verify election procedures and quorum requirements with your HOA governing documents and attorney.
+
+---
+
+## Quick Votes (Board Decisions)
+
+Quick votes are emergency board decisions on spending or policy changes that require a rapid informal vote among board members. The board may publish these decisions for community transparency.
+
+**Viewing board decisions:**
+
+Go to **Quick Votes** in the sidebar. Each card shows:
+
+- The decision title
+- Type: Emergency Spend (with dollar amount) or Policy Decision
+- Outcome: Approved, Rejected, Withdrawn, or Open
+
+This is a read-only transparency feed — you cannot vote on quick votes.
+
+---
+
+## Announcements
+
+Your board posts community announcements to keep residents informed. Announcements may be pinned (important) or marked Urgent.
+
+**Viewing announcements:**
+
+Go to **Announcements** in the sidebar. The list is paginated, newest first. Pinned announcements are shown with a **Pinned** badge; urgent ones with an **Urgent** badge.
+
+---
+
+## Work Orders
+
+Work orders track community maintenance and repair requests managed by your board.
+
+**Viewing work orders:**
+
+Go to **Work Orders** in the sidebar. Use the status filter chips (All, Open, In Progress, Scheduled, Done) to filter the list.
+
+Each card shows:
+
+- Title and description
+- Priority (Low, Medium, High)
+- Status
+- Date opened
+
+This is a read-only view. To request maintenance, contact your board directly.
+
+---
+
+## Community Finances
+
+If your board has enabled financial transparency, you can view summary financial information for your community.
+
+**Viewing financial information:**
+
+Go to **Community Finances** in the sidebar. If transparency is enabled, you'll see:
+
+- **Collection Rate** — percentage of units current on dues payments
+- **Reserve Fund** — current reserve account balance
+- **Budget** — current fiscal year budget by category
+
+If your board has not enabled transparency, you will see a message indicating it is not available.
+
+> Financial information is provided by your HOA board for transparency purposes only. Verify with your HOA attorney for legal matters.
+
+---
+
 ## Surveys & Polls
 
 Your board may occasionally send you surveys or idea polls to collect community feedback. Surveys and polls are non-binding — your responses help your board make informed decisions but have no legal effect.
@@ -457,4 +548,4 @@ The denial reason is displayed on the Privacy & Data page. If you believe the de
 
 Livenhood is a software tool, not legal counsel. All enforcement settings are configured by your board based on your community's governing documents. If you have questions about your rights or obligations as a homeowner, verify requirements with your HOA attorney.
 
-_Last updated: 2026-04-15_
+_Last updated: 2026-04-21_
