@@ -2,7 +2,7 @@
 
 > Common questions from board officers, board members, and homeowners.
 
-**Status:** Current | **Last verified:** 2026-04-05
+**Status:** Current | **Last verified:** 2026-04-24
 
 ---
 
@@ -93,7 +93,7 @@ Yes — violation notices are generated as PDF documents. Download them from the
 Fine assessment is coming in Phase 2 and is not available in the current version of Livenhood. Contact your HOA attorney regarding your community's fine policy and enforcement procedures.
 
 **Can I edit a violation after it's created?**
-You can add internal notes and photos at any time. The description and category can be edited while the violation is in `open` status. Once a notice is sent, the filed record is locked to preserve the legal record.
+You can add internal notes and photos at any time. The description and category can be edited while the violation is in `first_notice_pending` status. Once a notice is sent, the filed record is locked to preserve the legal record.
 
 **What's the difference between Close and Waive?**
 Any board member can close a violation (resolved informally, withdrawn, or no longer applicable). Only board officers can waive a violation (the board chooses not to enforce it). Both are recorded in the audit trail.
@@ -109,7 +109,7 @@ Go to **Announcements**, click **New Announcement**, write your message, and cli
 No — announcements are delivered to users with active Livenhood accounts. This is another reason to get all homeowners set up in the system.
 
 **Can I schedule an announcement for later?**
-Not in the current version. Announcements are published immediately when you click Publish.
+Announcements can be saved as drafts (set **Publish Now** to off) and published manually later. Timed scheduling is not available — drafts must be published manually.
 
 **Can announcements be pinned or archived?**
 Yes. Pinned announcements appear at the top of the list. Archived announcements are hidden from the main list but remain accessible under the Archive tab.
@@ -200,4 +200,4 @@ No. Livenhood is a software tool, not legal counsel. All enforcement settings ar
 **Who is responsible for HOA enforcement decisions?**
 Your board. Livenhood provides tools to help your board track and communicate about violations, but all enforcement decisions (whether to file a violation, send a notice, waive, or close) are made by your board in accordance with your governing documents. Livenhood does not make enforcement decisions.
 
-_Last updated: 2026-04-05_
+_Last updated: 2026-04-24_

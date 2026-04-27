@@ -2,7 +2,7 @@
 
 > Step-by-step guide for board administrators managing the full violation lifecycle in Livenhood.
 
-**Status:** Current | **Last verified:** 2026-04-02
+**Status:** Current | **Last verified:** 2026-04-24
 
 ---
 
@@ -25,17 +25,18 @@
 ## Violation States
 
 ```
-open → first_notice_sent → second_notice_sent → resolved / closed / waived
+first_notice_pending → first_notice_sent → second_notice_pending → second_notice_sent → resolved / closed / waived
 ```
 
-| Status               | Meaning                                                      |
-| -------------------- | ------------------------------------------------------------ |
-| `open`               | Violation recorded; no notice sent yet                       |
-| `first_notice_sent`  | First formal notice emailed to homeowner; cure timer running |
-| `second_notice_sent` | Second notice sent after cure period expired                 |
-| `resolved`           | Homeowner corrected the violation; board confirmed           |
-| `closed`             | Board closed the violation (no resolution required)          |
-| `waived`             | Board waived the violation _(board admin only)_              |
+| Status                  | Meaning                                                      |
+| ----------------------- | ------------------------------------------------------------ |
+| `first_notice_pending`  | Violation recorded; no notice sent yet                       |
+| `first_notice_sent`     | First formal notice emailed to homeowner; cure timer running |
+| `second_notice_pending` | Cure period expired; second notice not yet sent              |
+| `second_notice_sent`    | Second notice sent after cure period expired                 |
+| `resolved`              | Homeowner corrected the violation; board confirmed           |
+| `closed`                | Board closed the violation (no resolution required)          |
+| `waived`                | Board waived the violation _(board admin only)_              |
 
 ---
 
@@ -51,7 +52,7 @@ open → first_notice_sent → second_notice_sent → resolved / closed / waived
    - **Rule violated** — cite the specific CC&R or rule section _(optional but recommended)_
 4. Click **Submit**
 
-> The violation is now `open`. The homeowner is **not notified yet** — only when you send a formal notice.
+> The violation is now `first_notice_pending`. The homeowner is **not notified yet** — only when you send a formal notice.
 
 ---
 
@@ -180,4 +181,4 @@ To customize the violation types available in your community:
 
 ---
 
-_Last updated: 2026-04-02_
+_Last updated: 2026-04-24_
